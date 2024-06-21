@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.contaria.sharedadvancements.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "PlayerAdvancementTrackerMixin",
+    "PlayerManagerMixin",
+    "ServerPlayerEntityMixin"
+  ]
+}

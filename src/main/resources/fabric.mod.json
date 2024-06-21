@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "shared-advancements",
+  "version": "${version}",
+  "name": "Shared Advancements",
+  "description": "Shares advancement progress between all players in a world.",
+  "authors": [
+    "contaria"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "shared-advancements.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7"
+  }
+}
