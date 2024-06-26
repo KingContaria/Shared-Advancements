@@ -20,10 +20,6 @@ dependencies {
     minecraft "com.mojang:minecraft:$minecraft_version"
     mappings "com.github.RedLime:yarn:$project.yarn_mappings:v2"
     modImplementation "net.fabricmc:fabric-loader:$loader_version"
-
-    // SpeedrunAPI
-    // check for the latest versions at https://jitpack.io/#kingcontaria/speedrunapi
-    modImplementation "com.github.KingContaria:SpeedrunAPI:8c6902cc71"
 }
 
 processResources {
